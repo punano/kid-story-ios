@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4403DBEB1F822CE2004CDC15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4403DBEA1F822CE2004CDC15 /* AppDelegate.swift */; };
+		4403DBF01F822CE2004CDC15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4403DBEE1F822CE2004CDC15 /* Main.storyboard */; };
+		4403DBF21F822CE2004CDC15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4403DBF11F822CE2004CDC15 /* Assets.xcassets */; };
+		4403DBF51F822CE2004CDC15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4403DBF31F822CE2004CDC15 /* LaunchScreen.storyboard */; };
+		4403DC851F823384004CDC15 /* BookSelectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4403DC4E1F823384004CDC15 /* BookSelectVC.swift */; };
+		4403DC931F82352B004CDC15 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4403DC921F82352B004CDC15 /* Book.swift */; };
+		4403DD331F82361F004CDC15 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4403DC971F82361E004CDC15 /* OpenSans-Bold.ttf */; };
+		4403DD341F82361F004CDC15 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4403DC981F82361E004CDC15 /* OpenSans-BoldItalic.ttf */; };
+		4403DD351F82361F004CDC15 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4403DC991F82361E004CDC15 /* OpenSans-ExtraBold.ttf */; };
+		4403DD361F82361F004CDC15 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4403DC9A1F82361E004CDC15 /* OpenSans-ExtraBoldItalic.ttf */; };
+		4403DD371F82361F004CDC15 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4403DC9B1F82361E004CDC15 /* OpenSans-Italic.ttf */; };
+		4403DD381F82361F004CDC15 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4403DC9C1F82361E004CDC15 /* OpenSans-Light.ttf */; };
+		4403DD391F82361F004CDC15 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4403DC9D1F82361E004CDC15 /* OpenSans-LightItalic.ttf */; };
+		4403DD3A1F82361F004CDC15 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4403DC9E1F82361E004CDC15 /* OpenSans-Regular.ttf */; };
+		4403DD3B1F82361F004CDC15 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4403DC9F1F82361E004CDC15 /* OpenSans-SemiBold.ttf */; };
+		4403DD3C1F82361F004CDC15 /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4403DCA01F82361E004CDC15 /* OpenSans-SemiBoldItalic.ttf */; };
+		4403DDB11F823639004CDC15 /* no-cover.png in Resources */ = {isa = PBXBuildFile; fileRef = 4403DDB01F823639004CDC15 /* no-cover.png */; };
+		4403DDB41F8236F7004CDC15 /* BookSelectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4403DDB21F8236F7004CDC15 /* BookSelectCell.swift */; };
+		4403DDB51F8236F7004CDC15 /* BookSelectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4403DDB31F8236F7004CDC15 /* BookSelectCell.xib */; };
+		4403DDC21F823A2E004CDC15 /* Little Red Riding Hood.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4403DDB81F823A2D004CDC15 /* Little Red Riding Hood.jpeg */; };
+		4403DDC31F823A2E004CDC15 /* The Emperor's New Clothes.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4403DDB91F823A2D004CDC15 /* The Emperor's New Clothes.jpeg */; };
+		4403DDC41F823A2E004CDC15 /* Hansel and Gretel.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4403DDBA1F823A2D004CDC15 /* Hansel and Gretel.jpeg */; };
+		4403DDC51F823A2E004CDC15 /* Puss in Boots.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4403DDBB1F823A2E004CDC15 /* Puss in Boots.jpeg */; };
+		4403DDC61F823A2E004CDC15 /* Cinderella.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4403DDBC1F823A2E004CDC15 /* Cinderella.jpeg */; };
+		4403DDC71F823A2E004CDC15 /* Goldilocks and the Three Bears.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4403DDBD1F823A2E004CDC15 /* Goldilocks and the Three Bears.jpeg */; };
+		4403DDC81F823A2E004CDC15 /* The Ugly Duckling.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4403DDBE1F823A2E004CDC15 /* The Ugly Duckling.jpeg */; };
+		4403DDC91F823A2E004CDC15 /* The Ant and the Grasshopper.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4403DDBF1F823A2E004CDC15 /* The Ant and the Grasshopper.jpeg */; };
+		4403DDCA1F823A2E004CDC15 /* Jack and the Beanstalk.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4403DDC01F823A2E004CDC15 /* Jack and the Beanstalk.jpeg */; };
+		4403DDCB1F823A2E004CDC15 /* The Princess and the Pea.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4403DDC11F823A2E004CDC15 /* The Princess and the Pea.jpeg */; };
+		4403DDE61F823D78004CDC15 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4403DDD41F823D78004CDC15 /* ColorExtension.swift */; };
+		4403DDE71F823D78004CDC15 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4403DDD61F823D78004CDC15 /* StringExtension.swift */; };
+		4403DDE81F823D78004CDC15 /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4403DDD81F823D78004CDC15 /* UIFontExtension.swift */; };
+		4403DDE91F823D78004CDC15 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4403DDDA1F823D78004CDC15 /* UIImageExtension.swift */; };
+		4403DDEA1F823D78004CDC15 /* LibExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4403DDDC1F823D78004CDC15 /* LibExtension.swift */; };
+		4403DDEC1F823D78004CDC15 /* CommonUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4403DDE01F823D78004CDC15 /* CommonUtility.swift */; };
+		4403DDF01F823DC4004CDC15 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4403DDEF1F823DC4004CDC15 /* ViewExtension.swift */; };
+		4403DDF61F823E52004CDC15 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4403DDF31F823E52004CDC15 /* AppConstant.swift */; };
+		4403DDF71F823E52004CDC15 /* CommonImageConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4403DDF41F823E52004CDC15 /* CommonImageConstant.swift */; };
+		4403DDF81F823E52004CDC15 /* ErrorConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4403DDF51F823E52004CDC15 /* ErrorConstant.swift */; };
+		44FAA1FD1F82472B0009A1EF /* CenterCellCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FAA1FC1F82472B0009A1EF /* CenterCellCollectionViewFlowLayout.swift */; };
+		C8601496FD6B2C25C09BC0C0 /* Pods_kid_story.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125E43074096A74074753CFA /* Pods_kid_story.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		125E43074096A74074753CFA /* Pods_kid_story.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kid_story.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3722F3BAE6A4F669C3627ED5 /* Pods-kid story.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kid story.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kid story/Pods-kid story.debug.xcconfig"; sourceTree = "<group>"; };
+		4403DBE71F822CE2004CDC15 /* kid story.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kid story.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4403DBEA1F822CE2004CDC15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4403DBEF1F822CE2004CDC15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4403DBF11F822CE2004CDC15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4403DBF41F822CE2004CDC15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4403DBF61F822CE2004CDC15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4403DC4E1F823384004CDC15 /* BookSelectVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookSelectVC.swift; sourceTree = "<group>"; };
+		4403DC921F82352B004CDC15 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		4403DC971F82361E004CDC15 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		4403DC981F82361E004CDC15 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4403DC991F82361E004CDC15 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		4403DC9A1F82361E004CDC15 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		4403DC9B1F82361E004CDC15 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		4403DC9C1F82361E004CDC15 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		4403DC9D1F82361E004CDC15 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		4403DC9E1F82361E004CDC15 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		4403DC9F1F82361E004CDC15 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		4403DCA01F82361E004CDC15 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		4403DDB01F823639004CDC15 /* no-cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no-cover.png"; sourceTree = "<group>"; };
+		4403DDB21F8236F7004CDC15 /* BookSelectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSelectCell.swift; sourceTree = "<group>"; };
+		4403DDB31F8236F7004CDC15 /* BookSelectCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookSelectCell.xib; sourceTree = "<group>"; };
+		4403DDB81F823A2D004CDC15 /* Little Red Riding Hood.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Little Red Riding Hood.jpeg"; sourceTree = "<group>"; };
+		4403DDB91F823A2D004CDC15 /* The Emperor's New Clothes.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Emperor's New Clothes.jpeg"; sourceTree = "<group>"; };
+		4403DDBA1F823A2D004CDC15 /* Hansel and Gretel.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hansel and Gretel.jpeg"; sourceTree = "<group>"; };
+		4403DDBB1F823A2E004CDC15 /* Puss in Boots.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Puss in Boots.jpeg"; sourceTree = "<group>"; };
+		4403DDBC1F823A2E004CDC15 /* Cinderella.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cinderella.jpeg; sourceTree = "<group>"; };
+		4403DDBD1F823A2E004CDC15 /* Goldilocks and the Three Bears.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Goldilocks and the Three Bears.jpeg"; sourceTree = "<group>"; };
+		4403DDBE1F823A2E004CDC15 /* The Ugly Duckling.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Ugly Duckling.jpeg"; sourceTree = "<group>"; };
+		4403DDBF1F823A2E004CDC15 /* The Ant and the Grasshopper.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Ant and the Grasshopper.jpeg"; sourceTree = "<group>"; };
+		4403DDC01F823A2E004CDC15 /* Jack and the Beanstalk.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jack and the Beanstalk.jpeg"; sourceTree = "<group>"; };
+		4403DDC11F823A2E004CDC15 /* The Princess and the Pea.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Princess and the Pea.jpeg"; sourceTree = "<group>"; };
+		4403DDD41F823D78004CDC15 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		4403DDD61F823D78004CDC15 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		4403DDD81F823D78004CDC15 /* UIFontExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
+		4403DDDA1F823D78004CDC15 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		4403DDDC1F823D78004CDC15 /* LibExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibExtension.swift; sourceTree = "<group>"; };
+		4403DDE01F823D78004CDC15 /* CommonUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtility.swift; sourceTree = "<group>"; };
+		4403DDEF1F823DC4004CDC15 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		4403DDF31F823E52004CDC15 /* AppConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		4403DDF41F823E52004CDC15 /* CommonImageConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonImageConstant.swift; sourceTree = "<group>"; };
+		4403DDF51F823E52004CDC15 /* ErrorConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorConstant.swift; sourceTree = "<group>"; };
+		44FAA1FC1F82472B0009A1EF /* CenterCellCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterCellCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		CAD99A3137248799F69B9589 /* Pods-kid story.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kid story.release.xcconfig"; path = "Pods/Target Support Files/Pods-kid story/Pods-kid story.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4403DBE41F822CE2004CDC15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8601496FD6B2C25C09BC0C0 /* Pods_kid_story.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040A42F8858D3AFDB0F0C0B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3722F3BAE6A4F669C3627ED5 /* Pods-kid story.debug.xcconfig */,
+				CAD99A3137248799F69B9589 /* Pods-kid story.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4403DBDE1F822CE2004CDC15 = {
+			isa = PBXGroup;
+			children = (
+				4403DBE91F822CE2004CDC15 /* kid story */,
+				4403DBE81F822CE2004CDC15 /* Products */,
+				040A42F8858D3AFDB0F0C0B5 /* Pods */,
+				B8D28C02B06DB0518ED799A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4403DBE81F822CE2004CDC15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4403DBE71F822CE2004CDC15 /* kid story.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4403DBE91F822CE2004CDC15 /* kid story */ = {
+			isa = PBXGroup;
+			children = (
+				4403DC941F82361E004CDC15 /* Assets */,
+				4403DC911F8233CF004CDC15 /* Storyboards */,
+				4403DC001F823384004CDC15 /* Classes */,
+				4403DBFF1F823369004CDC15 /* Supporting Files */,
+				4403DBF11F822CE2004CDC15 /* Assets.xcassets */,
+			);
+			path = "kid story";
+			sourceTree = "<group>";
+		};
+		4403DBFF1F823369004CDC15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4403DBF61F822CE2004CDC15 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4403DC001F823384004CDC15 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4403DDCC1F823D78004CDC15 /* Common */,
+				4403DC011F823384004CDC15 /* App */,
+				4403DC211F823384004CDC15 /* Model */,
+				4403DC391F823384004CDC15 /* UI */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4403DC011F823384004CDC15 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4403DBEA1F822CE2004CDC15 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4403DC211F823384004CDC15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4403DC921F82352B004CDC15 /* Book.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4403DC391F823384004CDC15 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4403DC4D1F823384004CDC15 /* Main */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		4403DC4D1F823384004CDC15 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4403DC4E1F823384004CDC15 /* BookSelectVC.swift */,
+				4403DDB21F8236F7004CDC15 /* BookSelectCell.swift */,
+				4403DDB31F8236F7004CDC15 /* BookSelectCell.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4403DC911F8233CF004CDC15 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4403DBEE1F822CE2004CDC15 /* Main.storyboard */,
+				4403DBF31F822CE2004CDC15 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		4403DC941F82361E004CDC15 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4403DC951F82361E004CDC15 /* Font */,
+				4403DCA11F82361E004CDC15 /* Image */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		4403DC951F82361E004CDC15 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				4403DC961F82361E004CDC15 /* OpenSans */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		4403DC961F82361E004CDC15 /* OpenSans */ = {
+			isa = PBXGroup;
+			children = (
+				4403DC971F82361E004CDC15 /* OpenSans-Bold.ttf */,
+				4403DC981F82361E004CDC15 /* OpenSans-BoldItalic.ttf */,
+				4403DC991F82361E004CDC15 /* OpenSans-ExtraBold.ttf */,
+				4403DC9A1F82361E004CDC15 /* OpenSans-ExtraBoldItalic.ttf */,
+				4403DC9B1F82361E004CDC15 /* OpenSans-Italic.ttf */,
+				4403DC9C1F82361E004CDC15 /* OpenSans-Light.ttf */,
+				4403DC9D1F82361E004CDC15 /* OpenSans-LightItalic.ttf */,
+				4403DC9E1F82361E004CDC15 /* OpenSans-Regular.ttf */,
+				4403DC9F1F82361E004CDC15 /* OpenSans-SemiBold.ttf */,
+				4403DCA01F82361E004CDC15 /* OpenSans-SemiBoldItalic.ttf */,
+			);
+			path = OpenSans;
+			sourceTree = "<group>";
+		};
+		4403DCA11F82361E004CDC15 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				4403DDB71F823A1C004CDC15 /* demo */,
+				4403DDB01F823639004CDC15 /* no-cover.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		4403DDB71F823A1C004CDC15 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				4403DDBC1F823A2E004CDC15 /* Cinderella.jpeg */,
+				4403DDBD1F823A2E004CDC15 /* Goldilocks and the Three Bears.jpeg */,
+				4403DDBA1F823A2D004CDC15 /* Hansel and Gretel.jpeg */,
+				4403DDC01F823A2E004CDC15 /* Jack and the Beanstalk.jpeg */,
+				4403DDB81F823A2D004CDC15 /* Little Red Riding Hood.jpeg */,
+				4403DDBB1F823A2E004CDC15 /* Puss in Boots.jpeg */,
+				4403DDBF1F823A2E004CDC15 /* The Ant and the Grasshopper.jpeg */,
+				4403DDB91F823A2D004CDC15 /* The Emperor's New Clothes.jpeg */,
+				4403DDC11F823A2E004CDC15 /* The Princess and the Pea.jpeg */,
+				4403DDBE1F823A2E004CDC15 /* The Ugly Duckling.jpeg */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+		4403DDCC1F823D78004CDC15 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4403DDF21F823E52004CDC15 /* Constant */,
+				4403DDD11F823D78004CDC15 /* Utility */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4403DDD11F823D78004CDC15 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				4403DDD21F823D78004CDC15 /* Extension */,
+				4403DDDF1F823D78004CDC15 /* Other */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		4403DDD21F823D78004CDC15 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4403DDEE1F823DA6004CDC15 /* View */,
+				4403DDD31F823D78004CDC15 /* Color */,
+				4403DDD51F823D78004CDC15 /* Data Type */,
+				4403DDD71F823D78004CDC15 /* Font */,
+				4403DDD91F823D78004CDC15 /* Image */,
+				4403DDDB1F823D78004CDC15 /* Lib */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4403DDD31F823D78004CDC15 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				4403DDD41F823D78004CDC15 /* ColorExtension.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		4403DDD51F823D78004CDC15 /* Data Type */ = {
+			isa = PBXGroup;
+			children = (
+				4403DDD61F823D78004CDC15 /* StringExtension.swift */,
+			);
+			path = "Data Type";
+			sourceTree = "<group>";
+		};
+		4403DDD71F823D78004CDC15 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				4403DDD81F823D78004CDC15 /* UIFontExtension.swift */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		4403DDD91F823D78004CDC15 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				4403DDDA1F823D78004CDC15 /* UIImageExtension.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		4403DDDB1F823D78004CDC15 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				4403DDDC1F823D78004CDC15 /* LibExtension.swift */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		4403DDDF1F823D78004CDC15 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				44FAA1FB1F8246FE0009A1EF /* Layout Collection */,
+				4403DDE01F823D78004CDC15 /* CommonUtility.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		4403DDEE1F823DA6004CDC15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4403DDEF1F823DC4004CDC15 /* ViewExtension.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4403DDF21F823E52004CDC15 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				4403DDF31F823E52004CDC15 /* AppConstant.swift */,
+				4403DDF41F823E52004CDC15 /* CommonImageConstant.swift */,
+				4403DDF51F823E52004CDC15 /* ErrorConstant.swift */,
+			);
+			name = Constant;
+			path = "../../../../pharmacy-ios/pharmacy/Classes/Common/Constant";
+			sourceTree = "<group>";
+		};
+		44FAA1FB1F8246FE0009A1EF /* Layout Collection */ = {
+			isa = PBXGroup;
+			children = (
+				44FAA1FC1F82472B0009A1EF /* CenterCellCollectionViewFlowLayout.swift */,
+			);
+			path = "Layout Collection";
+			sourceTree = "<group>";
+		};
+		B8D28C02B06DB0518ED799A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				125E43074096A74074753CFA /* Pods_kid_story.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4403DBE61F822CE2004CDC15 /* kid story */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4403DBF91F822CE2004CDC15 /* Build configuration list for PBXNativeTarget "kid story" */;
+			buildPhases = (
+				5068B5723DC9C44778348519 /* [CP] Check Pods Manifest.lock */,
+				4403DBE31F822CE2004CDC15 /* Sources */,
+				4403DBE41F822CE2004CDC15 /* Frameworks */,
+				4403DBE51F822CE2004CDC15 /* Resources */,
+				4637E02F828E15277FD79BCD /* [CP] Embed Pods Frameworks */,
+				DE50B8D00BDE95E3AC26384C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kid story";
+			productName = "kid story";
+			productReference = 4403DBE71F822CE2004CDC15 /* kid story.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4403DBDF1F822CE2004CDC15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = pandabox;
+				TargetAttributes = {
+					4403DBE61F822CE2004CDC15 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4403DBE21F822CE2004CDC15 /* Build configuration list for PBXProject "kid story" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4403DBDE1F822CE2004CDC15;
+			productRefGroup = 4403DBE81F822CE2004CDC15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4403DBE61F822CE2004CDC15 /* kid story */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4403DBE51F822CE2004CDC15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4403DDC51F823A2E004CDC15 /* Puss in Boots.jpeg in Resources */,
+				4403DDCA1F823A2E004CDC15 /* Jack and the Beanstalk.jpeg in Resources */,
+				4403DBF51F822CE2004CDC15 /* LaunchScreen.storyboard in Resources */,
+				4403DD3A1F82361F004CDC15 /* OpenSans-Regular.ttf in Resources */,
+				4403DD371F82361F004CDC15 /* OpenSans-Italic.ttf in Resources */,
+				4403DDCB1F823A2E004CDC15 /* The Princess and the Pea.jpeg in Resources */,
+				4403DD3C1F82361F004CDC15 /* OpenSans-SemiBoldItalic.ttf in Resources */,
+				4403DDB51F8236F7004CDC15 /* BookSelectCell.xib in Resources */,
+				4403DDC31F823A2E004CDC15 /* The Emperor's New Clothes.jpeg in Resources */,
+				4403DD361F82361F004CDC15 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				4403DD3B1F82361F004CDC15 /* OpenSans-SemiBold.ttf in Resources */,
+				4403DBF21F822CE2004CDC15 /* Assets.xcassets in Resources */,
+				4403DD391F82361F004CDC15 /* OpenSans-LightItalic.ttf in Resources */,
+				4403DD331F82361F004CDC15 /* OpenSans-Bold.ttf in Resources */,
+				4403DDC41F823A2E004CDC15 /* Hansel and Gretel.jpeg in Resources */,
+				4403DBF01F822CE2004CDC15 /* Main.storyboard in Resources */,
+				4403DDC61F823A2E004CDC15 /* Cinderella.jpeg in Resources */,
+				4403DD381F82361F004CDC15 /* OpenSans-Light.ttf in Resources */,
+				4403DDB11F823639004CDC15 /* no-cover.png in Resources */,
+				4403DD341F82361F004CDC15 /* OpenSans-BoldItalic.ttf in Resources */,
+				4403DDC71F823A2E004CDC15 /* Goldilocks and the Three Bears.jpeg in Resources */,
+				4403DDC91F823A2E004CDC15 /* The Ant and the Grasshopper.jpeg in Resources */,
+				4403DD351F82361F004CDC15 /* OpenSans-ExtraBold.ttf in Resources */,
+				4403DDC21F823A2E004CDC15 /* Little Red Riding Hood.jpeg in Resources */,
+				4403DDC81F823A2E004CDC15 /* The Ugly Duckling.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4637E02F828E15277FD79BCD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kid story/Pods-kid story-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5068B5723DC9C44778348519 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE50B8D00BDE95E3AC26384C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kid story/Pods-kid story-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4403DBE31F822CE2004CDC15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4403DDEA1F823D78004CDC15 /* LibExtension.swift in Sources */,
+				4403DC851F823384004CDC15 /* BookSelectVC.swift in Sources */,
+				4403DDEC1F823D78004CDC15 /* CommonUtility.swift in Sources */,
+				4403DDE61F823D78004CDC15 /* ColorExtension.swift in Sources */,
+				4403DDF61F823E52004CDC15 /* AppConstant.swift in Sources */,
+				4403DDE91F823D78004CDC15 /* UIImageExtension.swift in Sources */,
+				4403DBEB1F822CE2004CDC15 /* AppDelegate.swift in Sources */,
+				4403DDF01F823DC4004CDC15 /* ViewExtension.swift in Sources */,
+				4403DDF71F823E52004CDC15 /* CommonImageConstant.swift in Sources */,
+				4403DDE71F823D78004CDC15 /* StringExtension.swift in Sources */,
+				4403DDE81F823D78004CDC15 /* UIFontExtension.swift in Sources */,
+				4403DDF81F823E52004CDC15 /* ErrorConstant.swift in Sources */,
+				4403DDB41F8236F7004CDC15 /* BookSelectCell.swift in Sources */,
+				44FAA1FD1F82472B0009A1EF /* CenterCellCollectionViewFlowLayout.swift in Sources */,
+				4403DC931F82352B004CDC15 /* Book.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4403DBEE1F822CE2004CDC15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4403DBEF1F822CE2004CDC15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4403DBF31F822CE2004CDC15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4403DBF41F822CE2004CDC15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4403DBF71F822CE2004CDC15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4403DBF81F822CE2004CDC15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4403DBFA1F822CE2004CDC15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3722F3BAE6A4F669C3627ED5 /* Pods-kid story.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4XSQDHS7V;
+				INFOPLIST_FILE = "kid story/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pandabox.kid-story";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4403DBFB1F822CE2004CDC15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAD99A3137248799F69B9589 /* Pods-kid story.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4XSQDHS7V;
+				INFOPLIST_FILE = "kid story/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pandabox.kid-story";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4403DBE21F822CE2004CDC15 /* Build configuration list for PBXProject "kid story" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4403DBF71F822CE2004CDC15 /* Debug */,
+				4403DBF81F822CE2004CDC15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4403DBF91F822CE2004CDC15 /* Build configuration list for PBXNativeTarget "kid story" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4403DBFA1F822CE2004CDC15 /* Debug */,
+				4403DBFB1F822CE2004CDC15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4403DBDF1F822CE2004CDC15 /* Project object */;
+}
